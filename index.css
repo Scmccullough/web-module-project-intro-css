@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -51,7 +51,7 @@ table {
 
 *{
     box-sizing: border-box;
-    border:1px solid grey;
+    /* border:1px solid grey; */
     max-width:100%;
 
 }
@@ -63,13 +63,18 @@ body{
     font-size:1.8rem;
     color:#4f4f4f;
     line-height:1.5;
-    font-family:;
+    margin-top: 3%;
 }
 
 h1{
-    font-family:;
     letter-spacing:3px;
     font-size:6rem;
+}
+h2{
+    padding: 1%;
+}
+div.invite p{
+    padding:1%
 }
 section{
     padding: 4%;
@@ -82,6 +87,7 @@ nav a{
     width:8%;
     color:white;
     text-decoration:none;
+    font-family: 'Roboto Mono', monospace;
 }
 .orange{
     background: #FF764E;
@@ -97,37 +103,45 @@ nav a{
 
 .headerimage {
     display:inline-block;
-    width:30%;
+    width:25%;
     text-align:center;
     border-radius:50%
 }
 .headerimage, .invite{
     display: inline-block;
+    margin-bottom: -6%;
 }
 .invite{
-    width: 68%;
+    width: 69%;
     text-align: center;
     font-family: 'Chelsea Market', cursive;
+    margin-left: 2%;
+    margin-top:-30%;
 
 }
 .section2{
     background:#DDB9A3;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    color: white;
+    padding: 1%;
 }
 
 .text{
     text-align: center;
-    
-
+    margin-left: 35%;
+    margin-right:35%;
+    margin-bottom: 2%;
+    margin-top: 1%;
 }
 .fire{
-    width: 30%;
+    width: 20%;
     text-align: center;
+    margin-bottom: 2%;
     
 }
 .truck{
-    width: 30%;
+    width: 20%;
     text-align: center;
 }
 .section3 {
@@ -142,9 +156,12 @@ nav a{
 }
 footer{
     background:#F9E7DC
-    
 }
 .footerimage{
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 1%;
+}
+.bottomlinks{
+    padding: 2% 0 3% 0;
+    
 }
